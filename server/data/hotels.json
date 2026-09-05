@@ -1,0 +1,17 @@
+[
+  { "station_city": "Hyderabad", "name": "Station Inn Deccan", "distance": "0.4 km", "price": 1400, "rating": 4.1 },
+  { "station_city": "Hyderabad", "name": "Hotel Grand Habsheba", "distance": "1.2 km", "price": 2200, "rating": 4.4 },
+  { "station_city": "Hyderabad", "name": "Budget Stay Nampally", "distance": "0.6 km", "price": 900, "rating": 3.7 },
+  { "station_city": "Nagpur", "name": "Nagpur Junction Lodge", "distance": "0.3 km", "price": 1100, "rating": 3.9 },
+  { "station_city": "Nagpur", "name": "Hotel Centre Point", "distance": "2.0 km", "price": 2600, "rating": 4.5 },
+  { "station_city": "Bhopal", "name": "Bhopal Rail Yatri Niwas", "distance": "0.2 km", "price": 800, "rating": 3.6 },
+  { "station_city": "Bhopal", "name": "Lake View Bhopal", "distance": "3.5 km", "price": 2800, "rating": 4.6 },
+  { "station_city": "Vijayawada", "name": "Vijayawada Junction Stay", "distance": "0.5 km", "price": 1000, "rating": 3.8 },
+  { "station_city": "Mumbai", "name": "CST Business Hotel", "distance": "0.8 km", "price": 3200, "rating": 4.3 },
+  { "station_city": "Mumbai", "name": "Colaba Budget Rooms", "distance": "2.5 km", "price": 1500, "rating": 3.9 },
+  { "station_city": "Pune", "name": "Pune Junction Residency", "distance": "0.6 km", "price": 1300, "rating": 4.0 },
+  { "station_city": "Kolkata", "name": "Howrah Riverside Hotel", "distance": "1.0 km", "price": 1800, "rating": 4.2 },
+  { "station_city": "Delhi", "name": "New Delhi Railway Retiring Suites", "distance": "0.1 km", "price": 1200, "rating": 3.8 },
+  { "station_city": "Delhi", "name": "Paharganj Comfort Inn", "distance": "1.5 km", "price": 1900, "rating": 4.1 },
+  { "station_city": "Bangalore", "name": "City Junction Hotel", "distance": "0.7 km", "price": 1700, "rating": 4.2 }
+]

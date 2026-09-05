@@ -1,0 +1,51 @@
+[
+  { "train_number": "12723", "train_name": "Deccan Express", "source": "Chennai", "destination": "Hyderabad", "departure_time": "08:00", "arrival_time": "18:30", "average_delay": 35, "delay_probability": 0.28, "reliability_score": 82, "base_fare": 950 },
+  { "train_number": "12760", "train_name": "Charminar Express", "source": "Chennai", "destination": "Hyderabad", "departure_time": "18:40", "arrival_time": "05:30", "average_delay": 20, "delay_probability": 0.15, "reliability_score": 90, "base_fare": 1050 },
+
+  { "train_number": "12712", "train_name": "Konark Vijayawada Link", "source": "Chennai", "destination": "Vijayawada", "departure_time": "06:15", "arrival_time": "13:00", "average_delay": 15, "delay_probability": 0.12, "reliability_score": 92, "base_fare": 600 },
+  { "train_number": "12714", "train_name": "Coromandel Fast", "source": "Chennai", "destination": "Vijayawada", "departure_time": "14:00", "arrival_time": "20:30", "average_delay": 40, "delay_probability": 0.33, "reliability_score": 75, "base_fare": 620 },
+
+  { "train_number": "12735", "train_name": "Godavari Express", "source": "Vijayawada", "destination": "Hyderabad", "departure_time": "14:00", "arrival_time": "19:45", "average_delay": 25, "delay_probability": 0.2, "reliability_score": 86, "base_fare": 450 },
+  { "train_number": "12737", "train_name": "Krishna Link", "source": "Vijayawada", "destination": "Hyderabad", "departure_time": "21:15", "arrival_time": "02:40", "average_delay": 55, "delay_probability": 0.4, "reliability_score": 68, "base_fare": 400 },
+
+  { "train_number": "12771", "train_name": "Ajanta Express", "source": "Hyderabad", "destination": "Nagpur", "departure_time": "19:45", "arrival_time": "07:10", "average_delay": 30, "delay_probability": 0.22, "reliability_score": 84, "base_fare": 700 },
+  { "train_number": "12759", "train_name": "Devagiri Express", "source": "Hyderabad", "destination": "Nagpur", "departure_time": "20:30", "arrival_time": "08:45", "average_delay": 60, "delay_probability": 0.42, "reliability_score": 65, "base_fare": 650 },
+  { "train_number": "12703", "train_name": "Falaknuma Fast", "source": "Hyderabad", "destination": "Nagpur", "departure_time": "07:15", "arrival_time": "18:30", "average_delay": 18, "delay_probability": 0.14, "reliability_score": 91, "base_fare": 750 },
+
+  { "train_number": "12724", "train_name": "Nagpur Bhopal Express", "source": "Nagpur", "destination": "Bhopal", "departure_time": "08:45", "arrival_time": "14:30", "average_delay": 20, "delay_probability": 0.18, "reliability_score": 88, "base_fare": 500 },
+  { "train_number": "12854", "train_name": "Amravati Link", "source": "Nagpur", "destination": "Bhopal", "departure_time": "19:00", "arrival_time": "01:15", "average_delay": 50, "delay_probability": 0.37, "reliability_score": 70, "base_fare": 480 },
+
+  { "train_number": "12626", "train_name": "Kerala Mail Extension", "source": "Bhopal", "destination": "Delhi", "departure_time": "15:00", "arrival_time": "23:30", "average_delay": 25, "delay_probability": 0.2, "reliability_score": 85, "base_fare": 750 },
+  { "train_number": "12002", "train_name": "Bhopal Shatabdi", "source": "Bhopal", "destination": "Delhi", "departure_time": "16:10", "arrival_time": "22:35", "average_delay": 10, "delay_probability": 0.08, "reliability_score": 95, "base_fare": 1400 },
+
+  { "train_number": "12290", "train_name": "Duronto Delhi Express", "source": "Nagpur", "destination": "Delhi", "departure_time": "09:15", "arrival_time": "23:55", "average_delay": 22, "delay_probability": 0.19, "reliability_score": 87, "base_fare": 1600 },
+  { "train_number": "12810", "train_name": "Nagpur Rajdhani", "source": "Nagpur", "destination": "Delhi", "departure_time": "17:30", "arrival_time": "10:20", "average_delay": 15, "delay_probability": 0.1, "reliability_score": 93, "base_fare": 2100 },
+
+  { "train_number": "12790", "train_name": "Hyderabad Rajdhani", "source": "Hyderabad", "destination": "Delhi", "departure_time": "15:15", "arrival_time": "23:00", "average_delay": 15, "delay_probability": 0.12, "reliability_score": 92, "base_fare": 2600 },
+  { "train_number": "12649", "train_name": "AP Express", "source": "Hyderabad", "destination": "Delhi", "departure_time": "06:20", "arrival_time": "05:15", "average_delay": 45, "delay_probability": 0.35, "reliability_score": 71, "base_fare": 1900 },
+
+  { "train_number": "12639", "train_name": "Chennai Bangalore Shatabdi", "source": "Chennai", "destination": "Bangalore", "departure_time": "06:00", "arrival_time": "11:00", "average_delay": 12, "delay_probability": 0.1, "reliability_score": 93, "base_fare": 900 },
+  { "train_number": "12007", "train_name": "Brindavan Express", "source": "Chennai", "destination": "Bangalore", "departure_time": "15:10", "arrival_time": "20:45", "average_delay": 20, "delay_probability": 0.17, "reliability_score": 87, "base_fare": 550 },
+
+  { "train_number": "16536", "train_name": "Gol Gumbaz Express", "source": "Bangalore", "destination": "Pune", "departure_time": "11:30", "arrival_time": "06:00", "average_delay": 40, "delay_probability": 0.3, "reliability_score": 76, "base_fare": 850 },
+  { "train_number": "11302", "train_name": "Udyan Express", "source": "Bangalore", "destination": "Pune", "departure_time": "20:00", "arrival_time": "14:30", "average_delay": 30, "delay_probability": 0.24, "reliability_score": 81, "base_fare": 800 },
+
+  { "train_number": "11301", "train_name": "Udyan Mumbai Link", "source": "Pune", "destination": "Mumbai", "departure_time": "15:00", "arrival_time": "18:30", "average_delay": 25, "delay_probability": 0.22, "reliability_score": 83, "base_fare": 300 },
+  { "train_number": "12124", "train_name": "Deccan Queen", "source": "Pune", "destination": "Mumbai", "departure_time": "07:15", "arrival_time": "10:35", "average_delay": 8, "delay_probability": 0.07, "reliability_score": 96, "base_fare": 350 },
+
+  { "train_number": "12138", "train_name": "Punjab Mail", "source": "Mumbai", "destination": "Bhopal", "departure_time": "19:35", "arrival_time": "07:20", "average_delay": 30, "delay_probability": 0.25, "reliability_score": 80, "base_fare": 900 },
+  { "train_number": "12910", "train_name": "Garib Nawaz Express", "source": "Mumbai", "destination": "Bhopal", "departure_time": "11:45", "arrival_time": "23:55", "average_delay": 45, "delay_probability": 0.34, "reliability_score": 72, "base_fare": 850 },
+
+  { "train_number": "12952", "train_name": "Mumbai Rajdhani", "source": "Mumbai", "destination": "Delhi", "departure_time": "17:00", "arrival_time": "08:35", "average_delay": 12, "delay_probability": 0.1, "reliability_score": 94, "base_fare": 2800 },
+
+  { "train_number": "12245", "train_name": "Duronto Kolkata Link", "source": "Hyderabad", "destination": "Kolkata", "departure_time": "10:15", "arrival_time": "09:40", "average_delay": 35, "delay_probability": 0.27, "reliability_score": 79, "base_fare": 1700 },
+  { "train_number": "12774", "train_name": "Rayalaseema Kolkata Link", "source": "Nagpur", "destination": "Kolkata", "departure_time": "13:20", "arrival_time": "06:10", "average_delay": 28, "delay_probability": 0.21, "reliability_score": 85, "base_fare": 1300 },
+  { "train_number": "12042", "train_name": "Howrah Shatabdi", "source": "Kolkata", "destination": "Delhi", "departure_time": "23:00", "arrival_time": "18:00", "average_delay": 18, "delay_probability": 0.15, "reliability_score": 89, "base_fare": 2200 },
+
+  { "train_number": "12621", "train_name": "Tamil Nadu Express", "source": "Chennai", "destination": "Delhi", "departure_time": "22:30", "arrival_time": "06:40", "average_delay": 40, "delay_probability": 0.3, "reliability_score": 78, "base_fare": 2400 },
+  { "train_number": "12433", "train_name": "Chennai Rajdhani", "source": "Chennai", "destination": "Delhi", "departure_time": "06:00", "arrival_time": "05:55", "average_delay": 14, "delay_probability": 0.11, "reliability_score": 93, "base_fare": 3200 },
+
+  { "train_number": "12615", "train_name": "Grand Trunk Express", "source": "Chennai", "destination": "Nagpur", "departure_time": "19:15", "arrival_time": "20:30", "average_delay": 32, "delay_probability": 0.26, "reliability_score": 80, "base_fare": 1500 },
+  { "train_number": "12839", "train_name": "Howrah Mail", "source": "Chennai", "destination": "Kolkata", "departure_time": "23:50", "arrival_time": "05:15", "average_delay": 38, "delay_probability": 0.29, "reliability_score": 77, "base_fare": 1800 },
+  { "train_number": "12157", "train_name": "Vijayawada Nagpur Link", "source": "Vijayawada", "destination": "Nagpur", "departure_time": "22:00", "arrival_time": "10:20", "average_delay": 33, "delay_probability": 0.27, "reliability_score": 78, "base_fare": 850 }
+]

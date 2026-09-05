@@ -1,0 +1,12 @@
+[
+  { "name": "Chennai Central", "city": "Chennai", "state": "Tamil Nadu", "average_transfer_time": 20, "station_complexity": "Medium", "food_available": true, "hotel_available": true, "transport_available": true },
+  { "name": "Hyderabad Deccan", "city": "Hyderabad", "state": "Telangana", "average_transfer_time": 25, "station_complexity": "Medium", "food_available": true, "hotel_available": true, "transport_available": true },
+  { "name": "Nagpur Junction", "city": "Nagpur", "state": "Maharashtra", "average_transfer_time": 20, "station_complexity": "Low", "food_available": true, "hotel_available": true, "transport_available": true },
+  { "name": "New Delhi", "city": "Delhi", "state": "Delhi", "average_transfer_time": 35, "station_complexity": "High", "food_available": true, "hotel_available": true, "transport_available": true },
+  { "name": "Bangalore City", "city": "Bangalore", "state": "Karnataka", "average_transfer_time": 20, "station_complexity": "Medium", "food_available": true, "hotel_available": true, "transport_available": true },
+  { "name": "Mumbai CST", "city": "Mumbai", "state": "Maharashtra", "average_transfer_time": 30, "station_complexity": "High", "food_available": true, "hotel_available": true, "transport_available": true },
+  { "name": "Pune Junction", "city": "Pune", "state": "Maharashtra", "average_transfer_time": 15, "station_complexity": "Low", "food_available": true, "hotel_available": true, "transport_available": true },
+  { "name": "Vijayawada Junction", "city": "Vijayawada", "state": "Andhra Pradesh", "average_transfer_time": 15, "station_complexity": "Low", "food_available": true, "hotel_available": true, "transport_available": true },
+  { "name": "Bhopal Junction", "city": "Bhopal", "state": "Madhya Pradesh", "average_transfer_time": 20, "station_complexity": "Medium", "food_available": true, "hotel_available": true, "transport_available": true },
+  { "name": "Kolkata Howrah", "city": "Kolkata", "state": "West Bengal", "average_transfer_time": 30, "station_complexity": "High", "food_available": true, "hotel_available": true, "transport_available": true }
+]

@@ -1,0 +1,15 @@
+[
+  { "station_city": "Hyderabad", "name": "Paradise Biryani Express", "distance": "0.3 km", "price": 350, "rating": 4.4, "open": "24 hours" },
+  { "station_city": "Hyderabad", "name": "Deccan Food Court", "distance": "0.1 km", "price": 200, "rating": 3.9, "open": "05:00-23:00" },
+  { "station_city": "Nagpur", "name": "Saoji Thali House", "distance": "0.5 km", "price": 280, "rating": 4.2, "open": "10:00-22:30" },
+  { "station_city": "Nagpur", "name": "Junction Snack Bar", "distance": "0.1 km", "price": 150, "rating": 3.7, "open": "24 hours" },
+  { "station_city": "Bhopal", "name": "Bhopal Bhojanalay", "distance": "0.4 km", "price": 220, "rating": 4.0, "open": "06:00-23:00" },
+  { "station_city": "Vijayawada", "name": "Krishna Riverside Cafe", "distance": "0.6 km", "price": 250, "rating": 4.1, "open": "07:00-22:00" },
+  { "station_city": "Mumbai", "name": "CST Fast Food Corner", "distance": "0.2 km", "price": 180, "rating": 3.8, "open": "24 hours" },
+  { "station_city": "Mumbai", "name": "Colaba Coastal Kitchen", "distance": "2.2 km", "price": 500, "rating": 4.5, "open": "12:00-23:30" },
+  { "station_city": "Pune", "name": "Pune Junction Misal House", "distance": "0.3 km", "price": 150, "rating": 4.3, "open": "06:00-22:00" },
+  { "station_city": "Kolkata", "name": "Howrah Fish Curry Corner", "distance": "0.5 km", "price": 300, "rating": 4.2, "open": "10:00-22:00" },
+  { "station_city": "Delhi", "name": "Paharganj Dhaba", "distance": "1.2 km", "price": 250, "rating": 4.0, "open": "24 hours" },
+  { "station_city": "Delhi", "name": "New Delhi Rail Cafe", "distance": "0.1 km", "price": 200, "rating": 3.9, "open": "24 hours" },
+  { "station_city": "Bangalore", "name": "MG Road Darshini", "distance": "0.4 km", "price": 180, "rating": 4.1, "open": "06:00-23:00" }
+]
