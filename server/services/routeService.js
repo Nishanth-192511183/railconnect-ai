@@ -192,11 +192,12 @@ async function planJourney(source, destination) {
     delete route.durationMinutes;
   });
 
-  const recommendation = {
-    routeId: top[0].routeId,
-    safetyScore: top[0].safetyScore,
-    reason: `${top[0].routeId} has the highest overall safety score (${top[0].safetyScore}/100) among ${built.length} route option(s) found for this journey.`,
-  };
+const recommendation = {
+  routeId: top[0].routeId,
+  safetyScore: top[0].safetyScore,
+  summary: `${top[0].routeId} — Safest Option`,
+  detail: `This journey has the highest overall safety score (${top[0].safetyScore}/100) among ${built.length} route option(s) found for this journey.`,
+};
 
   return { source, destination, routes: top, recommendation };
 }

@@ -109,7 +109,10 @@ export default function RouteResults() {
               <RecommendationCard
                 summary={recommendation.summary}
                 detail={recommendation.detail}
-                onSelect={() => handleSelect(recommendation.routeId)}
+               onSelect={() => {
+  const fullRoute = routes.find(r => r.routeId === recommendation.routeId)
+  if (fullRoute) handleSelect(fullRoute)
+}}
               />
             )}
 
