@@ -36,28 +36,14 @@ const allowedOrigins = [
   'http://localhost:5173',
   'http://localhost:3000'
 ].filter(Boolean);
-app.use(
-  cors({
-    origin: function (origin, callback) {
-      // Allow requests without an Origin header
-      // (Postman, curl, server-to-server requests, etc.)
-      if (!origin) {
-        return callback(null, true);
-      }
+app.use(cors({
+  origin: true,
+  methods: ['GET', 'POST', 'PUT', 'PATCH', 'DELETE', 'OPTIONS'],
+  allowedHeaders: ['Content-Type', 'Authorization'],
+  credentials: false
+}));
 
-      if (allowedOrigins.includes(origin)) {
-        return callback(null, true);
-      }
-
-      return callback(
-        new Error(`CORS blocked origin: ${origin}`)
-      );
-    },
-    methods: ['GET', 'POST', 'PUT', 'PATCH', 'DELETE', 'OPTIONS'],
-    allowedHeaders: ['Content-Type', 'Authorization'],
-    credentials: false
-  })
-);
+app.options('*', cors());
 
 /*
 |--------------------------------------------------------------------------
