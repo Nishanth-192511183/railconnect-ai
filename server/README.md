@@ -69,32 +69,32 @@ npm start        # plain node
 The API is now live at `http://localhost:5000`. Check it with:
 
 ```bash
-curl http://localhost:5000/api/health
+curl https://railconnect-ai-production.up.railway.app/api/health
 ```
 
 ## 6. Try the demo flow
 
 ```bash
 # 1. Plan a journey
-curl -X POST http://localhost:5000/api/journey/plan \
+curl -X POST https://railconnect-ai-production.up.railway.app/api/journey/plan \
   -H "Content-Type: application/json" \
   -d '{"source":"Chennai","destination":"Delhi","date":"2026-09-20"}'
 
 # 2. Select/track a route (copy one "route" object from the response above)
-curl -X POST http://localhost:5000/api/journey/select \
+curl -X POST https://railconnect-ai-production.up.railway.app/api/journey/select \
   -H "Content-Type: application/json" \
   -d '{"source":"Chennai","destination":"Delhi","date":"2026-09-20","route": { ...paste route here... }}'
 
 # 3. View the live journey
-curl http://localhost:5000/api/journey/1
+curl https://railconnect-ai-production.up.railway.app/api/journey/1
 
 # 4. Simulate a big delay to trigger a missed connection
-curl -X POST http://localhost:5000/api/journey/1/simulate-delay \
+curl -X POST https://railconnect-ai-production.up.railway.app/api/journey/1/simulate-delay \
   -H "Content-Type: application/json" \
   -d '{"delayMinutes": 135}'
 
 # 5. Generate a recovery plan
-curl -X POST http://localhost:5000/api/recovery/generate \
+curl -X POST https://railconnect-ai-production.up.railway.app/api/recovery/generate \
   -H "Content-Type: application/json" \
   -d '{"journeyId":1,"currentStation":"Hyderabad","destination":"Delhi","currentTime":"12:45","budget":2000}'
 ```

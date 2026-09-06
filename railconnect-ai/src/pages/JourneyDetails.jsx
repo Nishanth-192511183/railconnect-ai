@@ -38,7 +38,7 @@ export default function JourneyDetails() {
   onClick={async () => {
     try {
       const response = await fetch(
-        `http://localhost:5000/api/journey/${journeyId}/track`,
+        `https://railconnect-ai-production.up.railway.app/api/journey/${journeyId}/track`,
         {
           method: 'POST'
         }

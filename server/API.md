@@ -1,6 +1,6 @@
 # RailConnect AI — API Documentation
 
-Base URL: `http://localhost:5000/api`
+Base URL: `https://railconnect-ai-production.up.railway.app/api`
 
 All responses are JSON. Errors follow:
 ```json

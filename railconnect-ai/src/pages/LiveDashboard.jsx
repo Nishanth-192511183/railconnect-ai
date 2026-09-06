@@ -8,7 +8,7 @@ import RiskBadge from '../components/RiskBadge'
 import Button from '../components/Button'
 import AIInsight from '../components/AIInsight'
 
-const API = 'http://localhost:5000/api'
+const API = 'https://railconnect-ai-production.up.railway.app/api'
 
 function formatTime(value) {
   if (!value) return '-'

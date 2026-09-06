@@ -1,3 +1,3 @@
-const API = 'http://localhost:5000/api'
+const API = 'https://railconnect-ai-production.up.railway.app/api'
 
 export default API

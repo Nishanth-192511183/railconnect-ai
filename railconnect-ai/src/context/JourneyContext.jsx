@@ -2,7 +2,7 @@ import { createContext, useContext, useState, useCallback } from 'react'
 
 const JourneyContext = createContext(null)
 
-const API = 'http://localhost:5000/api'
+const API = 'https://railconnect-ai-production.up.railway.app/api'
 
 const RECOVERY_PLAN = {
   originalConnection: {
