@@ -32,6 +32,7 @@ const app = express();
 const allowedOrigins = [
   process.env.CORS_ORIGIN,
   'https://railconnect-ai-7txj.vercel.app',
+  'https://railconnect-ai-7txj-git-main-railconnect-ai.vercel.app',
   'http://localhost:5173',
   'http://localhost:3000'
 ].filter(Boolean);
