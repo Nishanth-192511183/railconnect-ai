@@ -14,8 +14,9 @@ const aiRoutes = require('./routes/ai');
 
 const app = express();
 
-app.use(cors({ origin: process.env.CORS_ORIGIN || 'http://localhost:5173' }));
-app.use(express.json());
+app.use(cors({
+  origin: process.env.CORS_ORIGIN || 'https://railconnect-ai-7txj.vercel.app'
+}));
 
 // simple request logger
 app.use((req, res, next) => {

@@ -66,7 +66,7 @@ npm run dev      # nodemon, auto-restarts on changes
 npm start        # plain node
 ```
 
-The API is now live at `http://localhost:5000`. Check it with:
+The API is now live at `http://https://railconnect-ai-production.up.railway.app/api`. Check it with:
 
 ```bash
 curl https://railconnect-ai-production.up.railway.app/api/health
