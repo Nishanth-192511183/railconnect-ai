@@ -136,19 +136,15 @@ app.use((req, res) => {
 */
 
 app.use((err, req, res, next) => {
-  logger('ERROR', err.message);
+  console.error('[ERROR FULL]', err);
+  console.error('[ERROR MESSAGE]', err?.message);
+  console.error('[ERROR STACK]', err?.stack);
 
-  // CORS errors
-  if (err.message && err.message.startsWith('CORS blocked origin:')) {
-    return res.status(403).json({
-      success: false,
-      message: 'CORS origin not allowed'
-    });
-  }
+  logger('ERROR', err?.message || String(err));
 
   res.status(err.status || 500).json({
     success: false,
-    message: err.publicMessage || 'Internal server error'
+    message: err?.message || 'Internal server error',
   });
 });
 
