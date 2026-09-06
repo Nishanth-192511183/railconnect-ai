@@ -14,7 +14,7 @@ const {
 // POST /api/journey/plan - the core route-planning endpoint (spec section 15)
 async function plan(req, res, next) {
   try {
-    const { source, destination, date } = req.body;
+    const { source, destination, date } = req.body || {};
     if (!source || !destination || !date) {
       return res.status(400).json({ success: false, message: 'source, destination and date are required' });
     }
